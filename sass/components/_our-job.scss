@@ -1,0 +1,49 @@
+.our-job {
+  padding-top: 0;
+}
+
+.our-job-list,
+.our-team-list {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-job-list {
+  margin-bottom: 50px;
+}
+
+.job-icons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--margin));
+  margin-left: calc(-1 * var(--margin));
+}
+
+.job-images {
+  flex-basis: calc((100% - 3 * var(--margin)) / 3);
+  margin-top: var(--margin);
+  margin-left: var(--margin);
+}
+
+.job-images-box {
+  position: relative;
+}
+
+.job-images-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  padding: 27px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  background-color: var(--job-img-overlay-bg-color);
+}
