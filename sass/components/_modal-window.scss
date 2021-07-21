@@ -34,9 +34,9 @@
   height: 11px;
   fill: var(--logo-studio);
   transition: fill 250ms var(--cubic);
-}
 
-.close-btn:focus .close-vector,
-.close-btn:hover .close-vector {
-  fill: var(--accent-color);
+  .close-btn:focus &,
+  .close-btn:hover & {
+    fill: var(--accent-color);
+  }
 }

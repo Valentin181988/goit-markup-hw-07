@@ -31,16 +31,11 @@
   padding-left: 42px;
   transition: border-color 250ms var(--cubic);
   margin-top: 4px;
-}
 
-.modal-form-input:hover,
-.modal-form-input:focus {
-  border-color: var(--accent-color);
-}
-
-.modal-form-input:hover + .form-input-icon,
-.modal-form-input:focus + .form-input-icon {
-  fill: var(--accent-color);
+  &:hover + .form-input-icon,
+  &:focus + .form-input-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-form-input-wrapper {
@@ -56,11 +51,11 @@
   width: 18px;
   fill: var(--primary-color);
   transition: fill 250ms var(--cubic);
-}
 
-.form-input-icon:hover,
-.form-input-icon:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-form-message {
@@ -72,15 +67,15 @@
   padding: 12px 16px;
   resize: none;
   transition: border-color 250ms var(--cubic);
-}
 
-.modal-form-message::placeholder {
-  color: var(--textaria-text-color);
-}
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 
-.modal-form-message:hover,
-.modal-form-message:focus {
-  border-color: var(--accent-color);
+  &::placeholder {
+    color: var(--textaria-text-color);
+  }
 }
 
 .modal-form-label-link {
@@ -90,18 +85,18 @@
   letter-spacing: 0.03em;
 
   color: var(--accent-color);
-}
 
-.modal-form-label-link::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 6px;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 6px;
 
-  display: block;
-  width: 100%;
-  height: 0.1px;
-  background-color: var(--accent-color);
+    display: block;
+    width: 100%;
+    height: 0.1px;
+    background-color: var(--accent-color);
+  }
 }
 
 .modal-form-btn {
@@ -124,10 +119,10 @@
   border: none;
 
   transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
-}
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
-  background-color: var(--hero-button-hover-color);
-  box-shadow: var(--modal-form-btn-shadow);
+  &:hover,
+  &:focus {
+    background-color: var(--hero-button-hover-color);
+    box-shadow: var(--modal-form-btn-shadow);
+  }
 }

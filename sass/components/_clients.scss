@@ -19,20 +19,20 @@
   border: 1px solid var(--social-links);
   border-radius: 4px;
   transition: border 250ms var(--cubic);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+  }
 }
 
 .clients-links-icons {
   fill: var(--social-links);
   transition: fill 250ms var(--cubic);
-}
 
-.clients-links:hover,
-.clients-links:focus {
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-}
-
-.clients-links:hover .clients-links-icons,
-.clients-links:focus .clients-links-icons {
-  fill: var(--accent-color);
+  .clients-links:hover &,
+  .clients-links:focus & {
+    fill: var(--accent-color);
+  }
 }

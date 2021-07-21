@@ -3,6 +3,10 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+
+  & .container {
+    width: 696px;
+  }
 }
 
 .overlay {
@@ -16,10 +20,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.hero .container {
-  width: 696px;
 }
 
 .hero-title {
@@ -55,10 +55,10 @@
   border: none;
 
   transition: background-color 1000ms var(--cubic), box-shadow 250ms var(--cubic);
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: var(--hero-button-hover-color);
-  box-shadow: var(--shadow-hero-button);
+  &:hover,
+  &:focus {
+    background-color: var(--hero-button-hover-color);
+    box-shadow: var(--shadow-hero-button);
+  }
 }

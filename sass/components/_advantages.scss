@@ -6,7 +6,6 @@
 }
 
 .advantages-list-points {
-  /* width: 270px; */
   flex-basis: calc((100% - 4 * var(--margin)) / 4);
   margin-top: var(--margin);
   margin-left: var(--margin);
@@ -37,8 +36,6 @@
 
 .advantages-text {
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
