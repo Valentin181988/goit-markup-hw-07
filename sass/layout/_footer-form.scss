@@ -17,6 +17,13 @@
   margin-left: 12px;
 }
 
+/*.position {
+  display: flex;
+  align-items: center;
+  padding: 10px 29px;
+  margin-left: 12px;
+}*/
+
 .send-icon {
   height: 24px;
   width: 24px;
@@ -27,8 +34,8 @@
   display: block;
   height: 50px;
   width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border: 1px solid var(--footer-form-input-color);
+  filter: var(--shadow-hero-button);
   border-radius: 4px;
   background-color: transparent;
   color: var(--title-text-color);

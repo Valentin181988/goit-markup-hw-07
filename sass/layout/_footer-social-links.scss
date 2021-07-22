@@ -1,0 +1,20 @@
+.social-link-list {
+  justify-content: center;
+}
+
+.social-link {
+  background-color: var(--social-links-bg-f);
+}
+
+.social-link-icon.f-link-color {
+  fill: var(--title-text-color);
+}
+
+.position {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-link-item:not(:last-child) {
+  margin-right: 10px;
+}

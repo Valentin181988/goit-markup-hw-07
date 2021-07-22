@@ -31,23 +31,6 @@
   color: var(--mail-color);
 }
 
-.social-link-list {
-  justify-content: center;
-}
-
-.social-link {
-  background-color: var(--social-links-bg-f);
-}
-
-.social-link-icon.f-link-color {
-  fill: var(--title-text-color);
-}
-
-.position {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-contacts {
   margin-right: 83px;
 }
@@ -59,8 +42,4 @@
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 20px;
-}
-
-.social-link-item:not(:last-child) {
-  margin-right: 10px;
 }
