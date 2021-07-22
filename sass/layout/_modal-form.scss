@@ -32,9 +32,9 @@
   transition: border-color 250ms var(--cubic);
   margin-top: 4px;
 
-  &:hover + .form-input-icon,
-  &:focus + .form-input-icon {
-    fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
   }
 }
 
@@ -54,6 +54,11 @@
 
   &:hover,
   &:focus {
+    fill: var(--accent-color);
+  }
+
+  .modal-form-input:hover + &,
+  .modal-form-input:focus + & {
     fill: var(--accent-color);
   }
 }

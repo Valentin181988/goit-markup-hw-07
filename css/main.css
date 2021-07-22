@@ -212,11 +212,11 @@ img {
   color: var(--accent-color);
 }
 
-.active-link {
+.menu-link.active-link {
   color: var(--accent-color);
 }
 
-.active-link::after {
+.menu-link.active-link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -842,9 +842,8 @@ img {
   margin-top: 4px;
 }
 
-.modal-form-input:hover + .form-input-icon,
-.modal-form-input:focus + .form-input-icon {
-  fill: var(--accent-color);
+.modal-form-input:hover, .modal-form-input:focus {
+  border-color: var(--accent-color);
 }
 
 .modal-form-input-wrapper {
@@ -863,6 +862,11 @@ img {
 }
 
 .form-input-icon:hover, .form-input-icon:focus {
+  fill: var(--accent-color);
+}
+
+.modal-form-input:hover + .form-input-icon,
+.modal-form-input:focus + .form-input-icon {
   fill: var(--accent-color);
 }
 

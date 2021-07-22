@@ -3,21 +3,22 @@
 
 @import './base/base';
 @import './base/container';
+
 @import './components/modal-btn';
 
-@import './components/header';
-@import './components/hero';
-@import './components/advantages';
-@import './components/our-job';
-@import './components/team';
-@import './components/clients';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/our-job';
+@import './layout/team';
+@import './layout/clients';
 
-@import './components/footer';
-@import './components/footer-form';
+@import './layout/footer';
+@import './layout/footer-form';
 
-@import './components/portfolio';
+@import './layout/portfolio';
 
-@import './components/backdrop';
-@import './components/modal-window';
-@import './components/modal-form';
-@import './components/modal-checkbox';
+@import './layout/backdrop';
+@import './layout/modal-window';
+@import './layout/modal-form';
+@import './layout/modal-checkbox';
