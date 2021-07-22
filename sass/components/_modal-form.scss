@@ -98,31 +98,3 @@
     background-color: var(--accent-color);
   }
 }
-
-.modal-form-btn {
-  display: block;
-  margin: 0 auto;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: var(--title-text-color);
-  background-color: var(--accent-color);
-
-  box-shadow: var(--modal-form-btn-shadow);
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 10px 56px;
-  border: none;
-
-  transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
-
-  &:hover,
-  &:focus {
-    background-color: var(--hero-button-hover-color);
-    box-shadow: var(--modal-form-btn-shadow);
-  }
-}

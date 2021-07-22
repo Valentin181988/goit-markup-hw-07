@@ -86,24 +86,24 @@
   &:focus {
     color: var(--accent-color);
   }
-
-  &.active-link {
-    color: var(--accent-color);
-  }
 }
 
-.active-link::after {
-  content: '';
+.active-link {
+  color: var(--accent-color);
 
-  position: absolute;
-  left: 0;
-  bottom: -1.5px;
+  &::after {
+    content: '';
 
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    bottom: -1.5px;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+  }
 }
 
 .header-button {
