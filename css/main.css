@@ -99,7 +99,7 @@ img {
   padding-right: 15px;
 }
 
-.link-logo {
+.logo {
   font-family: inherit;
   font-style: inherit;
   font-weight: 700;
@@ -211,27 +211,26 @@ img {
   align-items: center;
 }
 
-.menu-link-contacts {
+.menu-contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.mail-button {
+.menu-contacts__mail {
   margin-right: 50px;
 }
 
-.header-nav .link-logo {
+.header-nav .logo {
   margin-right: 93px;
 }
 
-.menu-link-list:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-link,
-.header-button,
-.tel-link-header {
+.menu__link,
+.menu-contacts__link {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -241,23 +240,23 @@ img {
   transition: color 250ms var(--cubic);
 }
 
-.menu-link {
+.menu__link {
   position: relative;
 }
 
-.menu-link:visited {
+.menu__link:visited {
   color: var(--primary-color);
 }
 
-.menu-link:hover, .menu-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
-.menu-link.active-link {
+.menu__link.active-link {
   color: var(--accent-color);
 }
 
-.menu-link.active-link::after {
+.menu__link.active-link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -269,42 +268,24 @@ img {
   background-color: var(--accent-color);
 }
 
-.header-button {
+.menu-contacts__link {
   display: flex;
   align-items: center;
-}
-
-.header-button:hover, .header-button:focus {
-  color: var(--accent-color);
-}
-
-.tel-link-header {
-  display: flex;
-  align-items: center;
-}
-
-.tel-link-header:hover, .tel-link-header:focus {
-  color: var(--accent-color);
-}
-
-.header-button,
-.tel-link-header {
   color: var(--secondary-text-color);
 }
 
-.menu-icons {
+.menu-contacts__link:hover, .menu-contacts__link:focus {
+  color: var(--accent-color);
+}
+
+.menu-contacts__icons {
   fill: var(--secondary-text-color);
   transition: fill 250ms var(--cubic);
   margin-right: 10px;
 }
 
-.header-button:hover .menu-icons,
-.header-button:focus .menu-icons {
-  fill: var(--accent-color);
-}
-
-.tel-link-header:hover .menu-icons,
-.tel-link-header:focus .menu-icons {
+.menu-contacts__link:hover .menu-contacts__icons,
+.menu-contacts__link:focus .menu-contacts__icons {
   fill: var(--accent-color);
 }
 
