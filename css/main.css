@@ -311,7 +311,7 @@ img {
   background-repeat: no-repeat;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -321,20 +321,20 @@ img {
   color: var(--title-text-color);
 }
 
-.advantages-list {
+.advantages {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
 
-.advantages-list-points {
+.advantages__items {
   flex-basis: calc((100% - 4 * var(--margin)) / 4);
   margin-top: var(--margin);
   margin-left: var(--margin);
 }
 
-.advantages-title-points {
+.advantages__title {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -342,7 +342,7 @@ img {
   margin-bottom: 10px;
 }
 
-.advantages-cards {
+.advantages__cards {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,12 +352,12 @@ img {
   margin-bottom: var(--margin);
 }
 
-.advantages-cards-icon {
+.advantages__icons {
   width: 70px;
   height: 70px;
 }
 
-.advantages-text {
+.advantages__text {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -380,24 +380,24 @@ img {
   margin-bottom: 50px;
 }
 
-.job-icons {
+.job-cards {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
 
-.job-images {
+.job-cards__item {
   flex-basis: calc((100% - 3 * var(--margin)) / 3);
   margin-top: var(--margin);
   margin-left: var(--margin);
 }
 
-.job-images-box {
+.job-cards__images {
   position: relative;
 }
 
-.job-images-overlay {
+.job-cards__text {
   position: absolute;
   bottom: 0;
   left: 0;

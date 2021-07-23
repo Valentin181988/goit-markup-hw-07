@@ -15,24 +15,24 @@
   margin-bottom: 50px;
 }
 
-.job-icons {
+.job-cards {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
 
-.job-images {
+.job-cards__item {
   flex-basis: calc((100% - 3 * var(--margin)) / 3);
   margin-top: var(--margin);
   margin-left: var(--margin);
 }
 
-.job-images-box {
+.job-cards__images {
   position: relative;
 }
 
-.job-images-overlay {
+.job-cards__text {
   position: absolute;
   bottom: 0;
   left: 0;
