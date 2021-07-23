@@ -182,12 +182,12 @@ img {
   fill: var(--title-text-color);
 }
 
-.social-link-item {
+.social-link-list__item {
   width: 44px;
   height: 44px;
 }
 
-.social-link-item:not(:last-child) {
+.social-link-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -574,7 +574,7 @@ img {
   align-items: baseline;
 }
 
-.social-link-item:not(:last-child) {
+.social-link-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
