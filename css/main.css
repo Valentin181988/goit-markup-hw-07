@@ -9,7 +9,7 @@
   --logo-studio: #000000;
   --mail-color: rgba(255, 255, 255, 0.6);
   --line: #ececec;
-  --border-card-content: #eeeeee;
+  --border-projects__content: #eeeeee;
   --shadow-one: rgba(0, 0, 0, 0.12);
   --shadow-two: rgba(0, 0, 0, 0.14);
   --shadow-three: rgba(0, 0, 0, 0.2);
@@ -26,7 +26,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
   --gradient-hero: rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4);
   --modal-button-border: rgba(0, 0, 0, 0.1);
-  --portfolio-overlay-bg-color: rgba(33, 150, 243, 0.9);
+  --projects__overlay-bg-color: rgba(33, 150, 243, 0.9);
   --job-img-overlay-bg-color: rgba(47, 48, 58, 0.8);
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --hero-button-hover-color: #188ce8;
@@ -673,15 +673,15 @@ img {
   box-shadow: var(--portfolio-wigets-shadow);
 }
 
-.card-content {
+.projects__content {
   padding: 20px 24px;
   background: var(--title-text-color);
-  border-right: 1px solid var(--border-card-content);
-  border-bottom: 1px solid var(--border-card-content);
-  border-left: 1px solid var(--border-card-content);
+  border-right: 1px solid var(--border-projects__content);
+  border-bottom: 1px solid var(--border-projects__content);
+  border-left: 1px solid var(--border-projects__content);
 }
 
-.projects-list {
+.projects__list {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -689,8 +689,8 @@ img {
   margin-bottom: 4px;
 }
 
-.projects-links,
-.projects-links:visited {
+.projects__links,
+.projects__links:visited {
   color: var(--primary-color);
 }
 
@@ -701,20 +701,20 @@ img {
   margin-left: calc(-1 * var(--margin));
 }
 
-.projects-blocks {
+.projects__blocks {
   flex-basis: calc(100% / 3 - var(--margin));
   margin-top: var(--margin);
   margin-left: var(--margin);
 }
 
-.projects-title {
+.projects__title {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-.portfolio-overlay {
+.projects__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -724,29 +724,29 @@ img {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  background-color: var(--portfolio-overlay-bg-color);
+  background-color: var(--projects__overlay-bg-color);
   color: var(--title-text-color);
   overflow: auto;
   transform: translateY(100%);
   transition: transform 250ms var(--cubic);
 }
 
-.projects-links:hover .portfolio-overlay,
-.projects-links:focus .portfolio-overlay {
+.projects__links:hover .projects__overlay,
+.projects__links:focus .projects__overlay {
   transform: translateY(0%);
 }
 
-.portfolio-overlay-wrapper {
+.projects__overlay-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.projects-links {
+.projects__links {
   display: block;
   transition: box-shadow 250ms var(--cubic);
 }
 
-.projects-links:hover, .projects-links:focus {
+.projects__links:hover, .projects__links:focus {
   box-shadow: var(--box-shadow-pr);
 }
 
