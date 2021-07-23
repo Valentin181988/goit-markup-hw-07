@@ -508,18 +508,18 @@ img {
   margin-top: 20px;
 }
 
-.adress-link {
+.adress-list__link {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   transition: color 250ms var(--cubic);
 }
 
-.adress-link:hover, .adress-link:focus {
+.adress-list__link:hover, .adress-list__link:focus {
   color: var(--accent-color);
 }
 
-.adress-list-link:not(:last-child) {
+.adress-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 

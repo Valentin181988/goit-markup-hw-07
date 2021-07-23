@@ -9,7 +9,7 @@
   margin-top: 20px;
 }
 
-.adress-link {
+.adress-list__link {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -22,7 +22,7 @@
   }
 }
 
-.adress-list-link:not(:last-child) {
+.adress-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
