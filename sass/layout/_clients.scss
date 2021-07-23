@@ -4,13 +4,13 @@
   margin-left: calc(-1 * var(--margin));
 }
 
-.clients-list-items {
+.clients-list__items {
   flex-basis: calc(100% / 4 - 30px);
   margin-top: var(--margin);
   margin-left: var(--margin);
 }
 
-.clients-links {
+.clients-list__links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,12 +27,12 @@
   }
 }
 
-.clients-links-icons {
+.clients-list__icons {
   fill: var(--social-links);
   transition: fill 250ms var(--cubic);
 
-  .clients-links:hover &,
-  .clients-links:focus & {
+  .clients-list__links:hover &,
+  .clients-list__links:focus & {
     fill: var(--accent-color);
   }
 }
