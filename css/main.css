@@ -191,6 +191,22 @@ img {
   margin-right: 10px;
 }
 
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--shadow-three);
+  transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .header {
   background-color: var(--title-text-color);
   border-bottom: 1px solid var(--line);
@@ -734,22 +750,6 @@ img {
   box-shadow: var(--box-shadow-pr);
 }
 
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--shadow-three);
-  transition: opacity 250ms var(--cubic), visibility 250ms var(--cubic);
-}
-
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -779,19 +779,19 @@ img {
   padding: 0;
 }
 
-.close-vector {
+.close-btn__icon {
   width: 11px;
   height: 11px;
   fill: var(--logo-studio);
   transition: fill 250ms var(--cubic);
 }
 
-.close-btn:focus .close-vector,
-.close-btn:hover .close-vector {
+.close-btn:focus .close-btn__icon,
+.close-btn:hover .close-btn__icon {
   fill: var(--accent-color);
 }
 
-.modal-form-field {
+.modal-form__field {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -804,7 +804,7 @@ img {
   margin-bottom: 20px;
 }
 
-.modal-form-head {
+.modal-form__head {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -814,7 +814,7 @@ img {
   margin-bottom: 12px;
 }
 
-.modal-form-input {
+.modal-form__input {
   width: 100%;
   height: 40px;
   border: 1px solid var(--form-border-color);
@@ -824,15 +824,15 @@ img {
   margin-top: 4px;
 }
 
-.modal-form-input:hover, .modal-form-input:focus {
+.modal-form__input:hover, .modal-form__input:focus {
   border-color: var(--accent-color);
 }
 
-.modal-form-input-wrapper {
+.modal-form__input-wrapper {
   position: relative;
 }
 
-.form-input-icon {
+.modal-form__icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -843,16 +843,16 @@ img {
   transition: fill 250ms var(--cubic);
 }
 
-.form-input-icon:hover, .form-input-icon:focus {
+.modal-form__icon:hover, .modal-form__icon:focus {
   fill: var(--accent-color);
 }
 
-.modal-form-input:hover + .form-input-icon,
-.modal-form-input:focus + .form-input-icon {
+.modal-form__input:hover + .modal-form__icon,
+.modal-form__input:focus + .modal-form__icon {
   fill: var(--accent-color);
 }
 
-.modal-form-message {
+.modal-form__message {
   width: 100%;
   height: 120px;
   margin-top: 4px;
@@ -863,15 +863,15 @@ img {
   transition: border-color 250ms var(--cubic);
 }
 
-.modal-form-message:hover, .modal-form-message:focus {
+.modal-form__message:hover, .modal-form__message:focus {
   border-color: var(--accent-color);
 }
 
-.modal-form-message::placeholder {
+.modal-form__message::placeholder {
   color: var(--textaria-text-color);
 }
 
-.modal-form-label-link {
+.modal-form__label-link {
   position: relative;
   font-size: 14px;
   line-height: 1.71;
@@ -879,7 +879,7 @@ img {
   color: var(--accent-color);
 }
 
-.modal-form-label-link::after {
+.modal-form__label-link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -890,7 +890,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.modal-form-checkbox-label {
+.modal-form__checkbox-label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -901,7 +901,7 @@ img {
   margin-bottom: 30px;
 }
 
-.modal-form-checkbox-label::before {
+.modal-form__checkbox-label::before {
   display: block;
   content: '';
   width: 16px;
@@ -912,7 +912,7 @@ img {
   margin-right: 10px;
 }
 
-.modal-form-checkbox:checked + .modal-form-checkbox-label::before {
+.modal-form__checkbox:checked + .modal-form__checkbox-label::before {
   background-image: url("../images/check.svg");
   border: none;
   background-position: center;
@@ -920,8 +920,8 @@ img {
   background-size: cover;
 }
 
-.modal-form-checkbox:hover + .modal-form-checkbox-label::before,
-.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+.modal-form__checkbox:hover + .modal-form__checkbox-label::before,
+.modal-form__checkbox:focus + .modal-form__checkbox-label::before {
   outline: 2px solid var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-.modal-form-checkbox-label {
+.modal-form__checkbox-label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +20,7 @@
     margin-right: 10px;
   }
 
-  .modal-form-checkbox:checked + &::before {
+  .modal-form__checkbox:checked + &::before {
     background-image: url('../images/check.svg');
     border: none;
     background-position: center;
@@ -28,8 +28,8 @@
     background-size: cover;
   }
 
-  .modal-form-checkbox:hover + &::before,
-  .modal-form-checkbox:focus + &::before {
+  .modal-form__checkbox:hover + &::before,
+  .modal-form__checkbox:focus + &::before {
     outline: 2px solid var(--accent-color);
   }
 }
