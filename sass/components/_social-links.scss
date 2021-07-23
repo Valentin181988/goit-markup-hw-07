@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.social-link {
+.social-link-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +24,8 @@
   fill: var(--social-links);
   transition: fill 250ms var(--cubic);
 
-  .social-link:hover &,
-  .social-link:focus & {
+  .social-link-list__link:hover &,
+  .social-link-list__link:focus & {
     fill: var(--title-text-color);
   }
 }
