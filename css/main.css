@@ -170,15 +170,15 @@ img {
   background-color: var(--accent-color);
 }
 
-.social-link-icon {
+.social-link-list__icon {
   width: 20px;
   height: 20px;
   fill: var(--social-links);
   transition: fill 250ms var(--cubic);
 }
 
-.social-link:hover .social-link-icon,
-.social-link:focus .social-link-icon {
+.social-link:hover .social-link-list__icon,
+.social-link:focus .social-link-list__icon {
   fill: var(--title-text-color);
 }
 
@@ -565,7 +565,7 @@ img {
   background-color: var(--social-links-bg-f);
 }
 
-.social-link-icon.f-link-color {
+.social-link-list__icon.f-link-color {
   fill: var(--title-text-color);
 }
 
