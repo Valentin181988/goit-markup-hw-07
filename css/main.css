@@ -645,11 +645,11 @@ img {
   margin-bottom: 50px;
 }
 
-.widgets-item:not(:last-child) {
+.widgets__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.wigets-link {
+.wigets__link {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -667,7 +667,7 @@ img {
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
 }
 
-.wigets-link:hover, .wigets-link:focus {
+.wigets__link:hover, .wigets__link:focus {
   background-color: var(--accent-color);
   color: var(--title-text-color);
   box-shadow: var(--portfolio-wigets-shadow);
