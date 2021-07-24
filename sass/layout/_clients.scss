@@ -1,7 +1,10 @@
 .clients-list {
   display: flex;
-  margin-top: calc(-1 * var(--margin));
-  margin-left: calc(-1 * var(--margin));
+
+  &__position {
+    margin-top: calc(-1 * var(--margin));
+    margin-left: calc(-1 * var(--margin));
+  }
 }
 
 .clients-list__items {

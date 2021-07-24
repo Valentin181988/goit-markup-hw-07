@@ -28,8 +28,11 @@
 .our-team-blocks {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--margin));
-  margin-left: calc(-1 * var(--margin));
+
+  &__position {
+    margin-top: calc(-1 * var(--margin));
+    margin-left: calc(-1 * var(--margin));
+  }
 }
 
 .our-team-blocks__wrapper {

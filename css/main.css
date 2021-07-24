@@ -464,6 +464,9 @@ img {
 .our-team-blocks {
   display: flex;
   flex-wrap: wrap;
+}
+
+.our-team-blocks__position {
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
@@ -483,6 +486,9 @@ img {
 
 .clients-list {
   display: flex;
+}
+
+.clients-list__position {
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
