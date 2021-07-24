@@ -441,12 +441,16 @@ img {
   background-color: var(--widgets-link-background-color);
 }
 
+.our-team__our-team-blocks {
+  margin-top: calc(-1 * var(--margin));
+  margin-left: calc(-1 * var(--margin));
+}
+
 .our-team-blocks__name,
 .our-team-blocks__specialty {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -466,11 +470,6 @@ img {
 .our-team-blocks {
   display: flex;
   flex-wrap: wrap;
-}
-
-.our-team-blocks__position {
-  margin-top: calc(-1 * var(--margin));
-  margin-left: calc(-1 * var(--margin));
 }
 
 .our-team-blocks__wrapper {
