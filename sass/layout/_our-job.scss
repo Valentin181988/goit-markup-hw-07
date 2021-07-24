@@ -1,5 +1,12 @@
 .our-job {
-  padding-top: 0;
+  &__job-cards {
+    margin-top: calc(-1 * var(--margin));
+    margin-left: calc(-1 * var(--margin));
+  }
+
+  &_padding {
+    padding-top: 0;
+  }
 }
 
 .our-job__title,
@@ -18,11 +25,6 @@
 .job-cards {
   display: flex;
   flex-wrap: wrap;
-
-  &__position {
-    margin-top: calc(-1 * var(--margin));
-    margin-left: calc(-1 * var(--margin));
-  }
 }
 
 .job-cards__item {

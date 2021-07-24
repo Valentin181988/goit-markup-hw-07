@@ -128,7 +128,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   display: block;
-  /*margin: 0 auto;*/
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -137,7 +136,6 @@ img {
   background-color: var(--accent-color);
   box-shadow: var(--shadow-hero-button);
   border-radius: 4px;
-  padding: 10px 32px;
   border: none;
   transition: background-color 1000ms var(--cubic), box-shadow 250ms var(--cubic);
 }
@@ -317,6 +315,7 @@ img {
 
 .hero__modal-btn {
   margin: 0 auto;
+  padding: 10px 32px;
 }
 
 .overlay {
@@ -345,7 +344,7 @@ img {
   flex-wrap: wrap;
 }
 
-.advantages__position {
+.advantages-list__advantages {
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
@@ -385,7 +384,12 @@ img {
   color: var(--secondary-text-color);
 }
 
-.our-job {
+.our-job__job-cards {
+  margin-top: calc(-1 * var(--margin));
+  margin-left: calc(-1 * var(--margin));
+}
+
+.our-job_padding {
   padding-top: 0;
 }
 
@@ -405,11 +409,6 @@ img {
 .job-cards {
   display: flex;
   flex-wrap: wrap;
-}
-
-.job-cards__position {
-  margin-top: calc(-1 * var(--margin));
-  margin-left: calc(-1 * var(--margin));
 }
 
 .job-cards__item {
@@ -817,10 +816,6 @@ img {
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
   margin-bottom: 10px;
-}
-
-.indent {
-  margin-bottom: 20px;
 }
 
 .modal-form__head {

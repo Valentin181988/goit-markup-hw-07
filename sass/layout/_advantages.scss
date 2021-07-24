@@ -1,8 +1,10 @@
 .advantages {
   display: flex;
   flex-wrap: wrap;
+}
 
-  &__position {
+.advantages-list {
+  &__advantages {
     margin-top: calc(-1 * var(--margin));
     margin-left: calc(-1 * var(--margin));
   }
