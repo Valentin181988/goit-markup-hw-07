@@ -62,7 +62,7 @@
   }
 }
 
-.menu__link.active-link {
+.menu__link.menu__link_active-link {
   color: var(--accent-color);
 
   &::after {

@@ -268,11 +268,11 @@ img {
   color: var(--accent-color);
 }
 
-.menu__link.active-link {
+.menu__link.menu__link_active-link {
   color: var(--accent-color);
 }
 
-.menu__link.active-link::after {
+.menu__link.menu__link_active-link::after {
   content: '';
   position: absolute;
   left: 0;
