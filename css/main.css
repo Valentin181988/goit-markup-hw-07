@@ -128,7 +128,7 @@ img {
   font-size: 16px;
   line-height: 1.88;
   display: block;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -145,10 +145,6 @@ img {
 .modal-btn:hover, .modal-btn:focus {
   background-color: var(--hero-button-hover-color);
   box-shadow: var(--shadow-hero-button);
-}
-
-.modal-btn.modal-btn_indentation {
-  padding: 10px 56px;
 }
 
 .social-link-list {
@@ -212,6 +208,10 @@ img {
   border-bottom: 1px solid var(--line);
 }
 
+.header__menu-contacts {
+  margin-left: auto;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -230,7 +230,6 @@ img {
 .menu-contacts {
   display: flex;
   align-items: center;
-  margin-left: auto;
 }
 
 .menu-contacts__mail {
@@ -314,6 +313,10 @@ img {
 
 .hero .container {
   width: 696px;
+}
+
+.hero__modal-btn {
+  margin: 0 auto;
 }
 
 .overlay {
@@ -800,6 +803,11 @@ img {
 .close-btn:focus .close-btn__icon,
 .close-btn:hover .close-btn__icon {
   fill: var(--accent-color);
+}
+
+.modal-form__modal-btn {
+  margin: 0 auto;
+  padding: 10px 56px;
 }
 
 .modal-form__field {

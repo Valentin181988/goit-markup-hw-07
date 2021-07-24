@@ -1,6 +1,10 @@
 .header {
   background-color: var(--title-text-color);
   border-bottom: 1px solid var(--line);
+
+  &__menu-contacts {
+    margin-left: auto;
+  }
 }
 
 .header-container {
@@ -21,7 +25,6 @@
 .menu-contacts {
   display: flex;
   align-items: center;
-  margin-left: auto;
 }
 
 .menu-contacts__mail {

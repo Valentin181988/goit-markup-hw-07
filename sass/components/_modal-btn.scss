@@ -4,7 +4,7 @@
   line-height: 1.88;
 
   display: block;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -23,9 +23,5 @@
   &:focus {
     background-color: var(--hero-button-hover-color);
     box-shadow: var(--shadow-hero-button);
-  }
-
-  &.modal-btn_indentation {
-    padding: 10px 56px;
   }
 }

@@ -1,3 +1,10 @@
+.modal-form {
+  &__modal-btn {
+    margin: 0 auto;
+    padding: 10px 56px;
+  }
+}
+
 .modal-form__field {
   display: block;
   font-size: 12px;
