@@ -393,8 +393,7 @@ img {
   padding-top: 0;
 }
 
-.our-job__title,
-.our-team__title {
+.main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -402,7 +401,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.our-job__title {
+.main-title_position {
   margin-bottom: 50px;
 }
 
