@@ -147,7 +147,7 @@ img {
   box-shadow: var(--shadow-hero-button);
 }
 
-.modal-btn.indentation {
+.modal-btn.modal-btn_indentation {
   padding: 10px 56px;
 }
 
@@ -237,7 +237,7 @@ img {
   margin-right: 50px;
 }
 
-.header-nav .logo {
+.header-nav .header__logo {
   margin-right: 93px;
 }
 
