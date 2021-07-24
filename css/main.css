@@ -565,7 +565,7 @@ img {
   background-color: var(--social-links-bg-f);
 }
 
-.social-link-list__icon.f-link-color {
+.social-link-list__icon.social-link-list__icon_color {
   fill: var(--title-text-color);
 }
 
