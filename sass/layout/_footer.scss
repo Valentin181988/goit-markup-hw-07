@@ -34,11 +34,14 @@
   margin-right: 83px;
 }
 
-.join {
+.footer-title {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
-  margin-bottom: 20px;
+
+  &_position {
+    margin-bottom: 20px;
+  }
 }
