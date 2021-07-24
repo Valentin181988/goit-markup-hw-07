@@ -237,7 +237,7 @@ img {
   margin-right: 50px;
 }
 
-.header-nav .header__logo {
+.header-nav__position .header__logo {
   margin-right: 93px;
 }
 
@@ -340,6 +340,9 @@ img {
 .advantages {
   display: flex;
   flex-wrap: wrap;
+}
+
+.advantages__position {
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }

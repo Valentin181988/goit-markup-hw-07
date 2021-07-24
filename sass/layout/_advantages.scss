@@ -1,6 +1,9 @@
 .advantages {
   display: flex;
   flex-wrap: wrap;
+}
+
+.advantages__position {
   margin-top: calc(-1 * var(--margin));
   margin-left: calc(-1 * var(--margin));
 }
