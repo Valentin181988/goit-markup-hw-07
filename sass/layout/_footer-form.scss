@@ -12,9 +12,8 @@
   background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
-  padding: 10px 29px;
+
   cursor: pointer;
-  margin-left: 12px;
 }
 
 .footer-form-btn__icon {
@@ -50,5 +49,12 @@
 }
 
 .footer-form {
-  margin-left: 93px;
+  &__footer-form-btn {
+    padding: 10px 29px;
+    margin-left: 12px;
+  }
+
+  &__footer-title {
+    margin-bottom: 20px;
+  }
 }

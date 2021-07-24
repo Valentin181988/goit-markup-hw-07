@@ -531,6 +531,10 @@ img {
   background-color: var(--background-color);
 }
 
+.footer__footer-form {
+  margin-left: 93px;
+}
+
 .adress-title {
   font-style: inherit;
   margin-top: 20px;
@@ -567,10 +571,6 @@ img {
   color: var(--title-text-color);
 }
 
-.footer-title_position {
-  margin-bottom: 20px;
-}
-
 .social-link-list {
   justify-content: center;
 }
@@ -604,9 +604,7 @@ img {
   background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
-  padding: 10px 29px;
   cursor: pointer;
-  margin-left: 12px;
 }
 
 .footer-form-btn__icon {
@@ -640,8 +638,13 @@ img {
   align-items: center;
 }
 
-.footer-form {
-  margin-left: 93px;
+.footer-form__footer-form-btn {
+  padding: 10px 29px;
+  margin-left: 12px;
+}
+
+.footer-form__footer-title {
+  margin-bottom: 20px;
 }
 
 .wigets {

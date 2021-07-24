@@ -2,6 +2,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);
+
+  &__footer-form {
+    margin-left: 93px;
+  }
 }
 
 .adress-title {
@@ -40,8 +44,4 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
-
-  &_position {
-    margin-bottom: 20px;
-  }
 }
