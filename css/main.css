@@ -539,8 +539,7 @@ img {
   margin-bottom: 9px;
 }
 
-.mail,
-.tel {
+.adress-list__link_color {
   color: var(--mail-color);
 }
 
